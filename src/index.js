@@ -1,9 +1,7 @@
 import x from "./x.js";
 import jpg from "./assets/2.jpg";
 
-console.log(x);
 const div = document.getElementById("app");
-console.log(jpg);
 div.innerHTML = `
     <img src="${jpg}">
 `;
