@@ -1,10 +1,10 @@
 import x from "./x.js";
 import jpg from "./assets/2.jpg";
 
-const div = document.getElementById("app");
-div.innerHTML = `
-    <img src="${jpg}">
-`;
+// const div = document.getElementById("app");
+// div.innerHTML = `
+//     <img src="${jpg}">
+// `;
 
 const button = document.createElement("button");
 button.innerHTML = "懒加载";
